@@ -61,7 +61,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      metainformation for dates from graves: \textbf{burial type} \& \textbf{burial construction}
+      Metainformation for dates from graves: \textbf{burial type} \& \textbf{burial construction}
     \end{minipage}}%
 \end{textblock*}
 
@@ -70,13 +70,22 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      heterogeneous information density in space and time
+      Heterogeneous information density in space and time
     \end{minipage}}%
 \end{textblock*}
 
 ## Research Area and Regions
 
 ![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
+
+\begin{textblock*}{75pt}(30pt,140pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Divide and Conquer: Separation into eight artifical regions within the area of the highest data density
+    \end{minipage}}%
+\end{textblock*}
 
 ## Development
 
