@@ -7,7 +7,6 @@ institute: Institut für Ur- und Frühgeschichte, CAU Kiel
 fontsize: 9pt
 output:
   beamer_presentation:
-    theme: "metropolis"
     includes: 
       in_header: preamble.tex
 fig_caption: yes

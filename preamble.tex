@@ -4,6 +4,20 @@
 \let\@@magyar@captionfix\relax
 \makeatother
 
+\makeatletter
+  \def\beamer@calltheme#1#2#3{%
+    \def\beamer@themelist{#2}
+    \@for\beamer@themename:=\beamer@themelist\do
+    {\usepackage[{#1}]{\beamer@themelocation/#3\beamer@themename}}}
+
+  \def\usefolder#1{
+    \def\beamer@themelocation{#1}
+  }
+  \def\beamer@themelocation{}
+
+\usefolder{metropolis_theme}
+\usetheme{custommetropolis}
+
 \metroset{sectionpage=progressbar}
 \usepackage{subfig}
 \usepackage[justification=centering]{caption}
