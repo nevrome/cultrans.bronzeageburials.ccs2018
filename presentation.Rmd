@@ -47,11 +47,25 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](figures/general_map.jpeg){ height=85% }
 
-## Research Area and Regions
+\begin{textblock*}{65pt}(5pt,50pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      \textbf{Radon-B:} Database for European \textsuperscript{14}C dates for the Bronze and Early Iron Age
+    \end{minipage}}%
+\end{textblock*}
 
-![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
+\begin{textblock*}{65pt}(5pt,170pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      metainformation for dates from graves: \textbf{burial type} \& \textbf{burial construction}
+    \end{minipage}}%
+\end{textblock*}
 
-\begin{textblock*}{65pt}(40pt,160pt)
+\begin{textblock*}{65pt}(295pt,110pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -59,6 +73,10 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
       heterogeneous information density in space and time
     \end{minipage}}%
 \end{textblock*}
+
+## Research Area and Regions
+
+![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
 
 ## Development
 
