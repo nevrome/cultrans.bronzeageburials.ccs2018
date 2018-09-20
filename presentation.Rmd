@@ -258,6 +258,15 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
 
+\begin{textblock*}{100pt}(15pt,50pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      The definition of artificial regions as units of analysis makes distance measures difficult. \textbf{Ordinally scaled distance classes} are the only valid option here.
+    \end{minipage}}%
+\end{textblock*}
+
 ## Correlation
 
 \begin{adjustwidth}{-3em}{-3em}
