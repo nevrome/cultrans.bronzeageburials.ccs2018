@@ -31,14 +31,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 \huge
 
-- Introduction (Data)
-
-- Simulation (Theory and Method)
+- Introduction to the data
 
 - Cultural Distance
 
-- Behavioural and Spatial Distance
+- Cultural and Spatial Distance
 
+- Simulation
 
 
 # Introduction
@@ -137,17 +136,19 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Time series of absolute appearances to time series of burial rite \textbf{proportions}
+      Data structure transformation: Time series of absolute appearances to time series of burial rite \textbf{proportions} - \textbf{burial rite proxy}
     \end{minipage}}%
 \end{textblock*}
 
-# Behavioural Distance
+# Cultural Distance
 
 ## Squared Euclidian Distance (SED)
 
-The Squared Euclidian Distance is a a simple **measure of between-group similarity**.
+**Question:** How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike?
 
-$$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
+The **Squared Euclidian Distance** is a a simple **measure of between-group similarity** that can be applied to the **burial rite proxy** data.
+
+\huge $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$ \normalsize
 
 - $d_{ij}^2$: Squared Euclidean distance between two groups $i$ and $j$
 - $k$: Variant counter
@@ -249,7 +250,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 
 
-# Behavioural and Spatial Distance
+# Cultural and Spatial Distance
 
 ## Spatial Distance Classes
 
