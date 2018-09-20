@@ -44,7 +44,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Data
 
-![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](figures/general_map.jpeg){ height=85% }
+![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
 \begin{textblock*}{65pt}(5pt,50pt)
   \setlength\fboxrule{2pt}%
@@ -75,7 +75,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Research Area and Regions
 
-![Artificial Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
+![Artificial Regions: 400km distance, 240km radius, >= 70 dates.](figures/general_map_research_area_regions.jpeg){ height=85% }
 
 \begin{textblock*}{75pt}(30pt,140pt)
   \setlength\fboxrule{2pt}%
@@ -92,13 +92,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_type.jpeg}
-      \caption{\textbf{Burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover respective year}
+      \caption{\textbf{burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover respective year.}
     \end{figure}
   \end{column}
   \begin{column}{0.35\textwidth}
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_construction.jpeg}
-      \caption{\textbf{Burial construction}}
+      \caption{\textbf{burial construction}}
       \vspace{1.8cm}
     \end{figure}
   \end{column}
@@ -119,13 +119,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_proportions_regions_burial_type.jpeg}
-      \caption{\textbf{Burial type} development: Year wise proportions of dates. \textit{unknown} is filtered out}
+      \caption{\textbf{burial type} development: Year wise proportions of dates. \textit{unknown} is filtered out.}
     \end{figure}
   \end{column}
   \begin{column}{0.35\textwidth}
     \begin{figure}
       \includegraphics{figures/development_proportions_regions_burial_construction.jpeg}
-      \caption{\textbf{Burial construction}}
+      \caption{\textbf{burial construction}}
       \vspace{1.8cm}
     \end{figure}
   \end{column}
@@ -158,9 +158,9 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 - $p_{ik}$: Relative frequency of the $k$'th variant in population $i$
 - $p_{jk}$: Relative frequency of the $k$'th variant in population $j$
 
-## Region Distance Matrix
+## Region-Region Distance Matrix
 
-![**burial type**: SED for each region relationship. Approximated with LOESS](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
+![**burial type**: SED for each region relationship. Approximated with LOESS.](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -189,9 +189,9 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Region Distance Matrix
+## Mean Region-Region Distance Matrix
 
-![Mean **burial type** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=85% }
+![**burial type**: Mean SED for each region relationship. The lower, the closer.](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(10pt,130pt)
   \setlength\fboxrule{2pt}%
@@ -202,9 +202,9 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Region Distance Matrix
+## Mean Region Distance Matrix
 
-![Mean **burial construction** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=85% }
+![**burial construction**: Mean SED for each region relationship.](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(300pt,200pt)
   \setlength\fboxrule{2pt}%
@@ -215,29 +215,29 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Parallel Developments
+## Parallel Developments?
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/regions_squared_euclidian_distance_burial_type.jpeg}
-      \caption{Development of \textbf{burial type} SED for each region}
+      \caption{\textbf{burial type} Development of SED to all the others for each region.}
     \end{figure}
   \end{column}
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
-      \caption{Development of \textbf{burial construction} SED for each region}
+      \caption{\textbf{burial construction}}
     \end{figure}
   \end{column}
 \end{columns}
 
-## Correlation
+## Correlation?
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
-    \caption{Correlation of \textbf{burial type} and \textbf{burial construction} Mean SED over time}
+    \caption{Correlation of \textbf{burial type} and \textbf{burial construction} mean SED in time slices of 200 years. \newline Each double point represents one region-region relationship.}
   \end{figure}
 \end{adjustwidth}
 
@@ -246,7 +246,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      the distances of burial type and construction are not well correlated -- except in the late Early Bronze Age
+      The distances of \textbf{burial type} and \textbf{construction} do \textbf{not correlate} -- except maybe in the late Early Bronze Age
     \end{minipage}}%
 \end{textblock*}
 
@@ -263,7 +263,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{Burial type} correlation of Mean SED and spatial distance}
+    \caption{\textbf{burial type} correlation of mean SED and spatial distance}
   \end{figure}
 \end{adjustwidth}
 
@@ -281,7 +281,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{Burial construction} correlation of Mean SED and spatial distance}
+    \caption{\textbf{burial construction} correlation of mean SED and spatial distance}
   \end{figure}
 \end{adjustwidth}
 
