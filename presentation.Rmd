@@ -55,11 +55,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Data
 
-![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](../../neomod_datapool/plots/general_maps/general_map_research_area_unzoomed.jpeg){ height=90% }
+![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](figures/general_map.jpeg){ height=90% }
 
 ## Research Area and Regions
 
-![Artifical Regions: 400km distance, 240km radius, >= 70 dates](../../neomod_datapool/plots/general_maps/general_map_research_area_regions.jpeg){ height=90% }
+![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=90% }
 
 \begin{textblock*}{65pt}(40pt,160pt)
   \setlength\fboxrule{2pt}%
@@ -75,13 +75,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development/development_amount_regions_burial_type.jpeg}
+      \includegraphics{figures/development_amount_regions_burial_type.jpeg}
       \caption{\textbf{Burial type} development absolute numbers}
     \end{figure}
   \end{column}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development/development_amount_regions_burial_construction.jpeg}
+      \includegraphics{figures/development_amount_regions_burial_construction.jpeg}
       \caption{\textbf{Burial construction} development absolute numbers}
     \end{figure}
   \end{column}
@@ -92,13 +92,13 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development/development_proportions_regions_burial_type.jpeg}
+      \includegraphics{figures/development_proportions_regions_burial_type.jpeg}
       \caption{\textbf{Burial type} development proportions}
     \end{figure}
   \end{column}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development/development_proportions_regions_burial_construction.jpeg}
+      \includegraphics{figures/development_proportions_regions_burial_construction.jpeg}
       \caption{\textbf{Burial construction} development proportions}
     \end{figure}
   \end{column}
@@ -148,42 +148,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Generic Results
 
-\begin{columns}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development_simulation/development_proportions_regions_simulation_example.jpeg}
-      \caption{Proportions development of one \textbf{simulation} example run}
-    \end{figure}
-  \end{column}
-  \begin{column}{0.48\textwidth}
-    \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/development_simulation/development_proportions_regions_simulation.jpeg}
-      \caption{Proportions development of many \textbf{simulation} runs}
-    \end{figure}
-  \end{column}
-\end{columns}
-
 ## Generic Results
-
-![Many **simulation** runs compared to the **real world data**](../../neomod_datapool/plots/development_simulation/development_proportions_regions_simulation_improved_vis.jpeg){ height=90% }
-
-\begin{textblock*}{55pt}(300pt,40pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      the simulation results show the effects of drift and flow 
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,180pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      real world data and simulation results are comparable 
-    \end{minipage}}%
-\end{textblock*}
 
 # Behavioural Distance
 
@@ -201,7 +166,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Development of **burial type** SED for all regions relations](../../neomod_datapool/plots/sed/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=90% }
+![Development of **burial type** SED for all regions relations](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=90% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -232,7 +197,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Mean **burial type** SED for all regions relations](../../neomod_datapool/plots/sed/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=90% }
+![Mean **burial type** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=90% }
 
 \begin{textblock*}{55pt}(10pt,130pt)
   \setlength\fboxrule{2pt}%
@@ -245,7 +210,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Mean **burial construction** SED for all regions relations](../../neomod_datapool/plots/sed/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=90% }
+![Mean **burial construction** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=90% }
 
 \begin{textblock*}{55pt}(300pt,200pt)
   \setlength\fboxrule{2pt}%
@@ -261,13 +226,13 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/sed/regions_squared_euclidian_distance_burial_type.jpeg}
+      \includegraphics{figures/regions_squared_euclidian_distance_burial_type.jpeg}
       \caption{Development of \textbf{burial type} SED for each region}
     \end{figure}
   \end{column}
   \begin{column}{0.48\textwidth}
     \begin{figure}
-      \includegraphics{../../neomod_datapool/plots/sed/regions_squared_euclidian_distance_burial_construction.jpeg}
+      \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
       \caption{Development of \textbf{burial construction} SED for each region}
     \end{figure}
   \end{column}
@@ -277,7 +242,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../../neomod_datapool/plots/sed/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
+    \includegraphics{figures/squared_euclidian_distance_burial_type_vs_burial_construction.jpeg}
     \caption{Correlation of \textbf{burial type} and \textbf{burial construction} Mean SED over time}
   \end{figure}
 \end{adjustwidth}
@@ -297,13 +262,13 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Spatial Distance Classes
 
-![Spatial distance network and definition of distance classes](../../neomod_datapool/plots/general_maps/general_map_distance_network.jpeg){ height=90% }
+![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=90% }
 
 ## Correlation
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../../neomod_datapool/plots/sed/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
     \caption{\textbf{Burial type} correlation of Mean SED and spatial distance}
   \end{figure}
 \end{adjustwidth}
@@ -321,7 +286,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
-    \includegraphics{../../neomod_datapool/plots/sed/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
+    \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
     \caption{\textbf{Burial construction} correlation of Mean SED and spatial distance}
   \end{figure}
 \end{adjustwidth}
@@ -337,7 +302,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](../../neomod_datapool/plots/sed_simulation/mantel_test_many_simulations.jpeg){ height=90% }
+<!-- ![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](../../neomod_datapool/plots/sed_simulation/mantel_test_many_simulations.jpeg){ height=90% } -->
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
