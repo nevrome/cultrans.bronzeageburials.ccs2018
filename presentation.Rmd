@@ -309,23 +309,32 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 - Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They life in **social space** and their spread depends on social relationships.
 
-- Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**.
+- Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**. [Dunnell 1978]
 
-- The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**.
+- The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**. [Neiman 1995]
 
 **Drift:** Dominanz of individual traits due to stochastic processes
 
 **Flow:** Information transfer and synchronization across group boundaries
 
-\noindent\rule{\textwidth}{1pt}
+\usebeamertemplate*{title separator}
 
 Concept: Ideas are **entities** that expand competitively in a **population graph**. 
 
 ## Population Graph
 
-![Example Population Graph (Fruchterman Reingold)](figures/population_graph_connection_001.jpeg){ height=85% }
+![Example Population Graph. Arranged with the Fruchterman & Reingold algorithm.](figures/population_graph_connection_001.jpeg){ height=85% }
 
-\begin{textblock*}{100pt}(50pt,50pt)
+\begin{textblock*}{130pt}(20pt,50pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \footnotesize\raggedright\color{white}
+      Implementierung: R Paket \textbf{popgenerator} to create population networks with varaible population size development, number of groups, degree of intergroup transmission, etc.
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{100pt}(250pt,160pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -340,6 +349,42 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
       groups have a high degree of internal and a low degree of external interaction
+    \end{minipage}}%
+\end{textblock*}
+
+## Expansion Simulation
+
+```{cpp eval = FALSE, size = 'footnotesize'}
+...
+// make random decision to convert or ignore a node based on the edge weight
+  std::vector<std::pair<int, bool>> success_per_neighbor(neighbors.size());
+  for (auto& i : all_neighbors_information) {
+    // make decision
+    // if the node is already occupied, it's more difficult
+    // if more than one contact, then there's a convincing bonus
+    std::pair<int, bool> success;
+    if (std::get<3>(i)) {
+      success = std::make_pair(
+        std::get<0>(i), 
+        std::get<1>(i) * log2( (double) std::get<2>(i) + 1) >= randunifrange(75, 100)
+      );
+    } else {
+      success = std::make_pair(
+        std::get<0>(i), 
+        std::get<1>(i) * log2( (double) std::get<2>(i) + 1) >= randunifrange(0, 100)
+      );
+    }
+    success_per_neighbor.push_back(success);
+  }
+...
+```
+
+\begin{textblock*}{130pt}(210pt,210pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \footnotesize\raggedright\color{white}
+      Implementierung: C++ CLI program \textbf{gluesless} to simulate idea expansion within the population network
     \end{minipage}}%
 \end{textblock*}
 
