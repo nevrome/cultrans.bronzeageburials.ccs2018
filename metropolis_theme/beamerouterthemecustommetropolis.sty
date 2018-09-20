@@ -68,10 +68,11 @@
 }
 \defbeamertemplate{headline}{plain}{}
 \defbeamertemplate{footline}{plain}{%
-  \begin{beamercolorbox}[wd=\textwidth, sep=3ex]{footline}%
+  \pgfsetfillopacity{0}\begin{beamercolorbox}[wd=\textwidth, sep=1.5ex]{footline}%
     \usebeamerfont{page number in head/foot}%
     \usebeamertemplate*{frame footer}
     \hfill%
+    \pgfsetfillopacity{1}
     \usebeamertemplate*{frame numbering}
   \end{beamercolorbox}%
 }
