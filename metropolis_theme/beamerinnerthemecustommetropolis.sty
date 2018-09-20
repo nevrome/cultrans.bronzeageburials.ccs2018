@@ -55,8 +55,21 @@
     \ifx\insertsubtitle\@empty\else\usebeamertemplate*{subtitle}\fi
     \usebeamertemplate*{title separator}
     \ifx\beamer@shortauthor\@empty\else\usebeamertemplate*{author}\fi 
-		\ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
-    %\ifx\insertinstitute\@empty\else\usebeamertemplate*{institute}\fi
+    \footnotesize{Institute of \newline Pre- and Protohistoric \newline Archaeology, \newline Kiel University}
+    \newline
+    \footnotesize{\textbf{clemens@nevrome.de}}
+    \newline
+    \newline
+    \footnotesize{Supervisors:}
+    \newline
+    \footnotesize{PD Dr. Oliver Nakoinz}
+    \newline
+    \footnotesize{Dr. Martin Hinz}
+    \newline
+    \newline
+    \footnotesize{Evolution of \newline Cultural Complexity III}
+    \newline
+    \ifx\insertdate\@empty\else\usebeamertemplate*{date}\fi
     \vfill
     \vspace*{1mm}
   \end{minipage}
@@ -103,11 +116,13 @@
 }
 \setbeamertemplate{author}{
   \vspace*{2em}
+  \textbf
   \insertauthor%
   \par%
   \vspace*{0.25em}
 }
 \setbeamertemplate{date}{
+  \footnotesize
   \insertdate%
   \par%
 }

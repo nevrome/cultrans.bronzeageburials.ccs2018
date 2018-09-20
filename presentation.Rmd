@@ -1,9 +1,9 @@
 ---
-title: "Observations about Behavioural and Spatial Distance"
-subtitle: Thesis -- "Ein computerbasiertes Cultural Evolution Modell zur Ausbreitungsdynamik europäisch-bronzezeitlicher Bestattungssitten"
+title: "A computational Cultural Transmission model of Bronze age burial rites in Central, Northern and North-western Europe"
+subtitle: Observations on spatial and cultural distance
 author: "Clemens Schmid"
-date: "10.7.2018"
-institute: Institut für Ur- und Frühgeschichte, CAU Kiel
+date: "27/09/2018"
+institute: Institute of Pre- and Protohistoric Archaeology, Kiel University
 fontsize: 9pt
 output:
   beamer_presentation:
