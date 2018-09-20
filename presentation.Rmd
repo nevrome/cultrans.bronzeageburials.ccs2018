@@ -1,5 +1,5 @@
 ---
-title: "A computational Cultural Transmission model of Bronze age burial rites in Central, Northern and North-western Europe"
+title: "A computational Cultural Transmission model of Bronze Age burial rites in Central, Northern and North-western Europe"
 subtitle: Observations on spatial and cultural distance
 author: "Clemens Schmid"
 date: "27/09/2018"
@@ -232,7 +232,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \end{column}
 \end{columns}
 
-## Correlation?
+## Correlation of **burial type** and **burial construction** distance
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
@@ -267,12 +267,12 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation
+## Correlation of **burial type** and **spatial** distance
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_type.jpeg}
-    \caption{\textbf{burial type} correlation of mean SED and spatial distance}
+    \caption{\textbf{burial type}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
   \end{figure}
 \end{adjustwidth}
 
@@ -281,16 +281,16 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      spatial distance is only relevant \textbf{before} the widespread transformation starts
+      spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation
+## Correlation of **burial construction** and **spatial** distance
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
     \includegraphics{figures/squared_euclidian_distance_vs_spatial_distance_burial_construction.jpeg}
-    \caption{\textbf{burial construction} correlation of mean SED and spatial distance}
+    \caption{\textbf{burial construction}: Correlation of mean SED and spatial distance in timeslices of 200 years.}
   \end{figure}
 \end{adjustwidth}
 
