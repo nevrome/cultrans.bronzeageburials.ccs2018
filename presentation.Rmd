@@ -9,6 +9,7 @@ output:
   beamer_presentation:
     includes: 
       in_header: preamble.tex
+    keep_tex: true
 fig_caption: yes
 editor_options: 
   chunk_output_type: console
@@ -44,11 +45,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Data
 
-![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](figures/general_map.jpeg){ height=90% }
+![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic)](figures/general_map.jpeg){ height=85% }
 
 ## Research Area and Regions
 
-![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=90% }
+![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
 
 \begin{textblock*}{65pt}(40pt,160pt)
   \setlength\fboxrule{2pt}%
@@ -115,7 +116,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Population Graph
 
-![Example Population Graph (Fruchterman Reingold)](figures/population_graph_connection_001.jpeg){ height=90% }
+![Example Population Graph (Fruchterman Reingold)](figures/population_graph_connection_001.jpeg){ height=85% }
 
 \begin{textblock*}{100pt}(50pt,50pt)
   \setlength\fboxrule{2pt}%
@@ -155,7 +156,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Development of **burial type** SED for all regions relations](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=90% }
+![Development of **burial type** SED for all regions relations](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
@@ -186,7 +187,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Mean **burial type** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=90% }
+![Mean **burial type** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(10pt,130pt)
   \setlength\fboxrule{2pt}%
@@ -199,7 +200,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Region Distance Matrix
 
-![Mean **burial construction** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=90% }
+![Mean **burial construction** SED for all regions relations](figures/regions_regions_mean_squared_euclidian_distance_burial_construction.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(300pt,200pt)
   \setlength\fboxrule{2pt}%
@@ -251,7 +252,7 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
 
 ## Spatial Distance Classes
 
-![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=90% }
+![Spatial distance network and definition of distance classes](figures/general_map_distance_network.jpeg){ height=85% }
 
 ## Correlation
 
