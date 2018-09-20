@@ -146,6 +146,8 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 **Question:** How do the developments in these regions for **burial type** and **burial construction** relate to each other? Which regions behave alike?
 
+\usebeamertemplate*{title separator}
+
 The **Squared Euclidian Distance** is a a simple **measure of between-group similarity** that can be applied to the **burial rite proxy** data.
 
 \huge $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$ \normalsize
@@ -158,32 +160,32 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ## Region Distance Matrix
 
-![Development of **burial type** SED for all regions relations](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
+![**burial type**: SED for each region relationship. Approximated with LOESS](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      low distance at the start and end due to universal shift from inhumation to cremation
+      The \textbf{SED} can be calculated for every year of every one of the $8*8=64$ region relationships
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(300pt,100pt)
+\begin{textblock*}{55pt}(300pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      the gradual change from one tradition to the other in England and Southern Scandinavia evens out the distances
+      Low distance at the start and end due to \textbf{universal shift from inhumation to cremation}
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(10pt,180pt)
+\begin{textblock*}{55pt}(10pt,170pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      the different adoption rates are visible as peaks of cultural distance
+      The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
     \end{minipage}}%
 \end{textblock*}
 
