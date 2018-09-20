@@ -76,14 +76,14 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ## Research Area and Regions
 
-![Artifical Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
+![Artificial Regions: 400km distance, 240km radius, >= 70 dates](figures/general_map_research_area_regions.jpeg){ height=85% }
 
 \begin{textblock*}{75pt}(30pt,140pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Divide and Conquer: Separation into eight artifical regions within the area of the highest data density
+      Divide and Conquer: Separation into eight artificial regions within the area of the highest data density
     \end{minipage}}%
 \end{textblock*}
 
@@ -93,16 +93,26 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_type.jpeg}
-      \caption{\textbf{Burial type} development absolute numbers}
+      \caption{\textbf{Burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover respective year}
     \end{figure}
   \end{column}
-  \begin{column}{0.48\textwidth}
+  \begin{column}{0.35\textwidth}
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_construction.jpeg}
-      \caption{\textbf{Burial construction} development absolute numbers}
+      \caption{\textbf{Burial construction}}
+      \vspace{1.8cm}
     \end{figure}
   \end{column}
 \end{columns}
+
+\begin{textblock*}{120pt}(215pt,220pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Data structure transformation: Individual \textsuperscript{14}C dates to time series of burial rite \textbf{presence}
+    \end{minipage}}%
+\end{textblock*}
 
 ## Development
 
@@ -120,7 +130,6 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{figure}
   \end{column}
 \end{columns}
-
 
 
 # Simulation
