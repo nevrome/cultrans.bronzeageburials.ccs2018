@@ -87,7 +87,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-## Development
+## Development -- absolute numbers
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
@@ -114,23 +114,32 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-## Development
+## Development -- proportions
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_proportions_regions_burial_type.jpeg}
-      \caption{\textbf{Burial type} development proportions}
+      \caption{\textbf{Burial type} development: Year wise proportions of dates. \textit{unknown} is filtered out}
     \end{figure}
   \end{column}
-  \begin{column}{0.48\textwidth}
+  \begin{column}{0.35\textwidth}
     \begin{figure}
       \includegraphics{figures/development_proportions_regions_burial_construction.jpeg}
-      \caption{\textbf{Burial construction} development proportions}
+      \caption{\textbf{Burial construction}}
+      \vspace{1.8cm}
     \end{figure}
   \end{column}
 \end{columns}
 
+\begin{textblock*}{120pt}(215pt,220pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Data structure transformation: Time series of absolute appearances to time series of burial rite \textbf{proportions}
+    \end{minipage}}%
+\end{textblock*}
 
 # Simulation
 
