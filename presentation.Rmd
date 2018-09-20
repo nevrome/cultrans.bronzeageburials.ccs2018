@@ -35,7 +35,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 - Simulation (Theory and Method)
 
-- Behavioural Distance
+- Cultural Distance
 
 - Behavioural and Spatial Distance
 
@@ -140,50 +140,6 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
       Data structure transformation: Time series of absolute appearances to time series of burial rite \textbf{proportions}
     \end{minipage}}%
 \end{textblock*}
-
-# Simulation
-
-## Concept
-
-- Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They life in **social space** and their spread depends on social relationships.
-
-- Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**.
-
-- The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**.
-
-**Drift:** Dominanz of individual traits due to stochastic processes
-
-**Flow:** Information transfer and synchronization across group boundaries
-
-\noindent\rule{\textwidth}{1pt}
-
-Concept: Ideas are **entities** that expand competitively in a **population graph**. 
-
-## Population Graph
-
-![Example Population Graph (Fruchterman Reingold)](figures/population_graph_connection_001.jpeg){ height=85% }
-
-\begin{textblock*}{100pt}(50pt,50pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \footnotesize\raggedright\color{white}
-      every individuals position in social space and time is defined by their connections
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{100pt}(250pt,200pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \footnotesize\raggedright\color{white}
-      groups have a high degree of internal and a low degree of external interaction
-    \end{minipage}}%
-\end{textblock*}
-
-## Generic Results
-
-## Generic Results
 
 # Behavioural Distance
 
@@ -332,6 +288,46 @@ $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       spatial distance is overall more relevant and again in the Early Bronze Age significant
+    \end{minipage}}%
+\end{textblock*}
+
+# Simulation
+
+## Concept
+
+- Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They life in **social space** and their spread depends on social relationships.
+
+- Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**.
+
+- The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**.
+
+**Drift:** Dominanz of individual traits due to stochastic processes
+
+**Flow:** Information transfer and synchronization across group boundaries
+
+\noindent\rule{\textwidth}{1pt}
+
+Concept: Ideas are **entities** that expand competitively in a **population graph**. 
+
+## Population Graph
+
+![Example Population Graph (Fruchterman Reingold)](figures/population_graph_connection_001.jpeg){ height=85% }
+
+\begin{textblock*}{100pt}(50pt,50pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \footnotesize\raggedright\color{white}
+      every individuals position in social space and time is defined by their connections
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{100pt}(250pt,200pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \footnotesize\raggedright\color{white}
+      groups have a high degree of internal and a low degree of external interaction
     \end{minipage}}%
 \end{textblock*}
 
