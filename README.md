@@ -2,7 +2,7 @@
 
 This paper was prepared to present some results of my now submitted master thesis at the [CCS2018](http://ccs2018.web.auth.gr/) conference in Thessaloniki, Greece. The presentation will be given as part of the satellite session [*Evolution of Cultural Complexity III*](https://ccs18.bsc.es/) by [Sergi Valverde](https://svalver.github.io/) and [Simon Carrignon](https://www.bsc.es/carrignon-simon).
 
-I've write my thesis at Kiel University. It was supervised by [PD Dr. Oliver Nakoinz](https://www.ufg.uni-kiel.de/en/staff-directory/professors/oliver-nakoinz) and [Dr. Martin Hinz](http://www.martinhinz.info/). The correction process is still ongoing when this paper is presented.
+I've written my thesis at Kiel University. It was supervised by [PD Dr. Oliver Nakoinz](https://www.ufg.uni-kiel.de/en/staff-directory/professors/oliver-nakoinz) and [Dr. Martin Hinz](http://www.martinhinz.info/). The correction process is still ongoing when this paper is presented.
 
 ## Abstract
 
