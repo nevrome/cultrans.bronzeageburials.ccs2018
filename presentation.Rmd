@@ -390,7 +390,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-<!-- ![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](../../neomod_datapool/plots/sed_simulation/mantel_test_many_simulations.jpeg){ height=90% } -->
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_1.jpeg){ height=85%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -401,7 +401,70 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
     \end{minipage}}%
 \end{textblock*}
 
+## Correlation
 
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_2.jpeg){ height=85%  }
+
+\begin{textblock*}{60pt}(300pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation   
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation
+
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_3.jpeg){ height=85%  }
+
+\begin{textblock*}{60pt}(300pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation   
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation
+
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_4.jpeg){ height=85%  }
+
+\begin{textblock*}{60pt}(300pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation   
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation
+
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/low_spatial_interaction.jpeg){ height=85%  }
+
+\begin{textblock*}{60pt}(300pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation   
+    \end{minipage}}%
+\end{textblock*}
+
+## Correlation
+
+![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/high_spatial_interaction.jpeg){ height=85%  }
+
+\begin{textblock*}{60pt}(300pt,30pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation   
+    \end{minipage}}%
+\end{textblock*}
 
 # Conclusion
 
