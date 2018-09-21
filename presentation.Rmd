@@ -281,7 +281,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
+      Spatial distance is only relevant \textbf{before} the widespread transformation in the Middle Bronze Age starts
     \end{minipage}}%
 \end{textblock*}
 
@@ -299,7 +299,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      spatial distance is overall more relevant and again in the Early Bronze Age significant
+      Spatial distance is overall more relevant and again in the Early Bronze Age significant
     \end{minipage}}%
 \end{textblock*}
 
@@ -390,7 +390,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_1.jpeg){ height=85%  }
+![Correlation of cultural and spatial distance over time for **real world observations**.](figures/sed_simulation_step_1.jpeg){ height=88% }  
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -403,7 +403,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_2.jpeg){ height=85%  }
+![**+** Correlation development for **100 simulation runs** with equal intergroup distance.](figures/sed_simulation_step_2.jpeg){ height=88%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -416,7 +416,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_3.jpeg){ height=85%  }
+![**+** Diagnostic **boxplots** for simulation runs.](figures/sed_simulation_step_3.jpeg){ height=88%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -429,7 +429,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/sed_simulation_step_4.jpeg){ height=85%  }
+![**+** Diagnostic **dotplots** indicating mantel test results.](figures/sed_simulation_step_4.jpeg){ height=88%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -442,7 +442,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/low_spatial_interaction.jpeg){ height=85%  }
+![Same plot, but simulations now with low **spatial intergroup distance**.](figures/low_spatial_interaction.jpeg){ height=88%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
@@ -455,7 +455,7 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
 
 ## Correlation
 
-![Correlation coefficient over time for 50 **simulation** runs and the **real world data**](figures/high_spatial_interaction.jpeg){ height=85%  }
+![Same plot, but simulations now with **high** spatial intergroup distance.](figures/high_spatial_interaction.jpeg){ height=88%  }
 
 \begin{textblock*}{60pt}(300pt,30pt)
   \setlength\fboxrule{2pt}%
