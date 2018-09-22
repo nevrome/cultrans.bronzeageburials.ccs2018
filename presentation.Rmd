@@ -63,7 +63,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Radiocarbon dating is one of the most important absolute dating methods for organic material younger than 50.000BC
+      Radiocarbon dating is one of the most important absolute dating methods: One date equals a \textbf{point in space and time with context information}
     \end{minipage}}%
 \end{textblock*}
 
@@ -95,7 +95,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Divide and Conquer: Separation into eight artificial regions within the area of the highest data density
+      Divide and Conquer: Separation into eight \textbf{artificial regions} within the area of the highest data density
     \end{minipage}}%
 \end{textblock*}
 
@@ -105,7 +105,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_type.jpeg}
-      \caption{\textbf{burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover respective year.}
+      \caption{\textbf{burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover the respective year.}
     \end{figure}
   \end{column}
   \begin{column}{0.35\textwidth}
@@ -122,7 +122,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Individual \textsuperscript{14}C dates to time series of burial rite \textbf{presence}
+      Data structure transformation: Individual \textsuperscript{14}C dates to \textbf{time series} of burial rite \textbf{presence}
     \end{minipage}}%
 \end{textblock*}
 
@@ -149,7 +149,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Time series of absolute appearances to time series of burial rite \textbf{proportions} - \textbf{burial rite proxy}
+      Data structure transformation: Time series of absolute appearances to \textbf{time series} of burial rite \textbf{proportions} - \textbf{burial rite proxy}
     \end{minipage}}%
 \end{textblock*}
 
