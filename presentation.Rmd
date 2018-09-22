@@ -102,7 +102,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 ## Development -- absolute numbers
 
 \begin{columns}
-  \begin{column}{0.48\textwidth}
+  \begin{column}{0.48\textwidth}  
     \begin{figure}
       \includegraphics{figures/development_amount_regions_burial_type.jpeg}
       \caption{\textbf{burial type} development: Sum of \textsuperscript{14}C dates whose $2\sigma$ range cover the respective year.}
@@ -175,7 +175,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 ![**burial type**: SED for each region relationship. Approximated with LOESS.](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
-\begin{textblock*}{55pt}(10pt,40pt)
+\begin{textblock*}{65pt}(5pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -184,7 +184,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(300pt,40pt)
+\begin{textblock*}{65pt}(295pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -193,7 +193,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(10pt,170pt)
+\begin{textblock*}{65pt}(5pt,170pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -201,6 +201,8 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
       The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
     \end{minipage}}%
 \end{textblock*}
+
+<!--
 
 ## Mean Region-Region Distance Matrix
 
@@ -227,6 +229,8 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
       Northwestern European Cluster?
     \end{minipage}}%
 \end{textblock*}
+
+-->
 
 ## Parallel Developments?
 
