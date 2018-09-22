@@ -46,8 +46,6 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
-\definecolor{niceorange}{HTML}{D65D00}
-
 \begin{textblock*}{65pt}(5pt,40pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
@@ -189,16 +187,26 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Low distance at the start and end due to \textbf{universal shift from inhumation to cremation}
+      Low distance at the start and end due to the \textbf{universal shift from inhumation to cremation} with rise of the \textbf{Urnfield culture}
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,170pt)
+\begin{textblock*}{65pt}(295pt,130pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{65pt}(5pt,110pt)
+  \textblockcolour{niceorange}
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      \textbf{Sociocultural complexity} in the Bronze Age is generally \textbf{increasing}. Still the \textbf{homogeneity \& heterogeneity of certain cultural traits} vary greatly.
     \end{minipage}}%
 \end{textblock*}
 
