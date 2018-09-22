@@ -46,7 +46,10 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
 
 ![Radon-B ^14^C dates of graves 2200-800 calBC (Albers Equal Area Conic).](figures/general_map.jpeg){ height=85% }
 
-\begin{textblock*}{65pt}(5pt,50pt)
+\definecolor{niceorange}{HTML}{D65D00}
+
+\begin{textblock*}{65pt}(5pt,40pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -55,7 +58,17 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,170pt)
+\begin{textblock*}{65pt}(295pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Radiocarbon dating is one of the most important absolute dating methods for organic material younger than 50.000BC
+    \end{minipage}}%
+\end{textblock*}
+
+
+\begin{textblock*}{65pt}(5pt,110pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -64,7 +77,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,110pt)
+\begin{textblock*}{65pt}(5pt,170pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
