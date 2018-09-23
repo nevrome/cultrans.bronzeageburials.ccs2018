@@ -340,7 +340,7 @@ Simulation concept:
 
 - Ideas are **entities** with simple behaviour: **greedy expansion**
 
-- Ideas life in a configurable **population network**
+- Ideas life in a configurable, diachronic **population network**
 
 \usebeamertemplate*{title separator}
 
@@ -352,7 +352,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 - **Flow:** Information transfer and synchronization across group boundaries
 
-## Population Graph
+## Population Graph Creation
 
 ![Example Population Graph. Arranged with the Fruchterman & Reingold algorithm.](figures/population_graph_connection_001.jpeg){ height=85% }
 
@@ -361,7 +361,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Implementierung: R Paket \textbf{popgenerator} to create population networks with varaible population size development, number of groups, degree of intergroup transmission, etc.
+      Implementation: R Package \textbf{popgenerator} to create population networks with variable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intergroup transmission}, etc.
     \end{minipage}}%
 \end{textblock*}
 
@@ -370,7 +370,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      every individuals position in social space and time is defined by their connections
+      Every individual's position in social space and time is defined by their connections
     \end{minipage}}%
 \end{textblock*}
 
@@ -379,11 +379,11 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      groups have a high degree of internal and a low degree of external interaction
+      Groups have a high degree of internal and a low degree of external interaction
     \end{minipage}}%
 \end{textblock*}
 
-## Expansion Simulation
+## Idea Expansion Simulation
 
 ```{cpp eval = FALSE, size = 'footnotesize'}
 ...
@@ -415,7 +415,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Implementierung: C++ CLI program \textbf{gluesless} to simulate idea expansion within the population network
+      Implementation: C++ CLI program \textbf{gluesless} to simulate idea expansion within the population network
     \end{minipage}}%
 \end{textblock*}
 
