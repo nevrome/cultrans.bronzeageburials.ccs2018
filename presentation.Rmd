@@ -61,7 +61,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Radiocarbon dating is one of the most important absolute dating methods: One date equals a \textbf{point in space and time with context information}
+      Radiocarbon dating is one of the most important absolute dating methods: One date equals a \textbf{fuzzy point in space and time with context information}
     \end{minipage}}%
 \end{textblock*}
 
@@ -97,7 +97,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- absolute numbers
+## Development -- Absolute Numbers
 
 \begin{columns}
   \begin{column}{0.48\textwidth}  
@@ -120,11 +120,11 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Individual \textsuperscript{14}C dates to \textbf{time series} of burial rite \textbf{presence}
+      Data structure transformation: Individual \textsuperscript{14}C dates to region wise \textbf{time series} of burial rite \textbf{presence}
     \end{minipage}}%
 \end{textblock*}
 
-## Development -- proportions
+## Development -- Proportions
 
 \begin{columns}
   \begin{column}{0.48\textwidth}
@@ -163,7 +163,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 
 \huge $$d_{ij}^2 = \sum_{k = 1}^{n} (p_{ik} - p_{jk})^2$$ \normalsize
 
-- $d_{ij}^2$: Squared Euclidean distance between two groups $i$ and $j$
+- $d_{ij}^2$: Squared Euclidean Distance between two groups $i$ and $j$
 - $k$: Variant counter
 - $n$: Total amount of variants in a population
 - $p_{ik}$: Relative frequency of the $k$'th variant in population $i$
