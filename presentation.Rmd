@@ -613,7 +613,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 # Conclusion
 
-## Preliminary Observations and Hypotheses
+## Observations and Hypotheses
 
 - The diffusion of the cremation funeral tradition and traditions of flat vs. mound graves are mostly **independent**, except for a short period in the late Early Bronze Age.
 
