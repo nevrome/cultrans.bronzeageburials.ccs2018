@@ -252,12 +252,12 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \begin{column}{0.48\textwidth}
     \begin{figure}
       \includegraphics{figures/regions_squared_euclidian_distance_burial_construction.jpeg}
-      \caption{\textbf{burial construction}}
+      \caption{\textbf{burial construction}\newline}
     \end{figure}
   \end{column}
 \end{columns}
 
-## Correlation of **burial type** and **burial construction** distance
+## Correlation of **Burial Type** and **Burial Construction** Distance
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
@@ -292,7 +292,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-## Correlation of **burial type** and **spatial** distance
+## Correlation of **Burial Type** and **Spatial** Distance
 
 \begin{adjustwidth}{-3em}{-3em}
   \begin{figure}
@@ -324,27 +324,33 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Spatial distance is overall more relevant and again in the Early Bronze Age significant
+      Spatial distance is overall \textbf{more relevant} and again in the late Early Bronze Age significant
     \end{minipage}}%
 \end{textblock*}
 
 # Simulation
 
-## Concept
+## Preliminary Considerations
 
-- Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They life in **social space** and their spread depends on social relationships.
-
-- Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**. [Dunnell 1978]
-
-- The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**. [Neiman 1995]
-
-**Drift:** Dominanz of individual traits due to stochastic processes
-
-**Flow:** Information transfer and synchronization across group boundaries
+Funeral rituals are **behaviour/ideas/cultural traits** and spread in space and time. They exist in **social space** and their spread depends on social relationships.
 
 \usebeamertemplate*{title separator}
 
-Concept: Ideas are **entities** that expand competitively in a **population graph**. 
+Simulation concept: 
+
+- Ideas are **entities** with simple behaviour: **greedy expansion**
+
+- Ideas life in a configurable **population network**
+
+\usebeamertemplate*{title separator}
+
+Funeral rituals are a special category of ideas: They have a relatively low interaction with the human-environment system and can be treated as **selectively neutral**. [Dunnell 1978]
+
+The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**. [Neiman 1995]
+
+- **Drift:** Dominance of individual traits due to stochastic processes
+
+- **Flow:** Information transfer and synchronization across group boundaries
 
 ## Population Graph
 
@@ -391,12 +397,12 @@ Concept: Ideas are **entities** that expand competitively in a **population grap
     if (std::get<3>(i)) {
       success = std::make_pair(
         std::get<0>(i), 
-        std::get<1>(i) * log2( (double) std::get<2>(i) + 1) >= randunifrange(75, 100)
+        std::get<1>(i) * log2(std::get<2>(i) + 1) >= randunifrange(75, 100)
       );
     } else {
       success = std::make_pair(
         std::get<0>(i), 
-        std::get<1>(i) * log2( (double) std::get<2>(i) + 1) >= randunifrange(0, 100)
+        std::get<1>(i) * log2(std::get<2>(i) + 1) >= randunifrange(0, 100)
       );
     }
     success_per_neighbor.push_back(success);
