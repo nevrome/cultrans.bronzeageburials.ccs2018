@@ -182,7 +182,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,110pt)
+\begin{textblock*}{65pt}(295pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -191,22 +191,12 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,195pt)
+\begin{textblock*}{65pt}(295pt,125pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
       The different \textbf{adoption rates} are visible as \textbf{peaks of cultural distance}
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{65pt}(295pt,40pt)
-  \textblockcolour{niceorange}
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      \textbf{Sociocultural complexity} in the Bronze Age is generally \textbf{increasing}. Still the \textbf{homogeneity \& heterogeneity of certain cultural traits} vary greatly.
     \end{minipage}}%
 \end{textblock*}
 
@@ -424,6 +414,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![Correlation of cultural and spatial distance over time for **real world observations**.](figures/sed_simulation_step_1.jpeg){ height=88% }  
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -437,6 +428,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![**+** Correlation development for **100 simulation runs** with **equal intergroup distance**.](figures/sed_simulation_step_2.jpeg){ height=88%  }
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -459,6 +451,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![**+** Diagnostic **boxplots** for simulation runs.](figures/sed_simulation_step_3.jpeg){ height=88%  }
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -481,7 +474,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal integroup distance simulations   
+      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
     \end{minipage}}%
 \end{textblock*}
 
@@ -490,6 +483,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![**+** Diagnostic **dotplots** indicating mantel test results.](figures/sed_simulation_step_4.jpeg){ height=88%  }
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -512,7 +506,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal integroup distance simulations   
+      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
     \end{minipage}}%
 \end{textblock*}
 
@@ -521,6 +515,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![Same plot, but simulations now with low **spatial intergroup distance**.](figures/low_spatial_interaction.jpeg){ height=88%  }
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -543,7 +538,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal integroup distance simulations   
+      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
     \end{minipage}}%
 \end{textblock*}
 
@@ -552,7 +547,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Spatial intergroup distance in the population graph increases correlation. 
+      Spatial intergroup distance in the population graph increases correlation
     \end{minipage}}%
 \end{textblock*}
 
@@ -561,6 +556,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 ![Same plot, but simulations now with **high** spatial intergroup distance.](figures/high_spatial_interaction.jpeg){ height=88%  }
 
 \begin{textblock*}{55pt}(10pt,30pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -583,7 +579,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal integroup distance simulations   
+      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
     \end{minipage}}%
 \end{textblock*}
 
@@ -592,7 +588,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Spatial intergroup distance in the population graph increases correlation. 
+      Spatial intergroup distance in the population graph increases correlation
     \end{minipage}}%
 \end{textblock*}
 
@@ -601,11 +597,12 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Generally more interaction increases correlation. 
+      Generally more interaction increases correlation
     \end{minipage}}%
 \end{textblock*}
 
 \begin{textblock*}{60pt}(300pt,150pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -618,10 +615,10 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ## Preliminary Observations and Hypotheses
 
-- The diffusion of the cremation funeral tradition and traditions of flat vs. mound graves can both be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
-
-- Both contexts are mostly **independent**, except for a short period in the late Early Bronze Age.
+- The diffusion of the cremation funeral tradition and traditions of flat vs. mound graves are mostly **independent**, except for a short period in the late Early Bronze Age.
 
 - Both contexts are to a certain degree correlated to **spatial distance** in the Early Bronze Age, but become **increasingly unpredictable** in the Middle Bronze Age.
 
-- The diffusion of cremation burials in the Middle and Late Bronze Age is **almost negatively correlated** with spatial distance.
+- Both contexts can both be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
+
+- **Sociocultural complexity** in the Bronze Age is generally **increasing**. Still the **homogeneity & heterogeneity** of certain cultural traits **vary greatly**.
