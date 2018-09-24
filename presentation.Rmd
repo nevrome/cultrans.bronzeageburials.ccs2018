@@ -619,6 +619,6 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 - Both contexts are to a certain degree correlated to **spatial distance** in the Early Bronze Age, but become **increasingly unpredictable** in the Middle Bronze Age.
 
-- Both contexts can both be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
+- Both contexts can be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
 
 - **Sociocultural complexity** in the Bronze Age is generally **increasing**. Still the **homogeneity & heterogeneity** of certain cultural traits **vary greatly**.
