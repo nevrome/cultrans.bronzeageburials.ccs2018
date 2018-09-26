@@ -65,7 +65,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,100pt)
+\begin{textblock*}{65pt}(295pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -74,7 +74,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(295pt,160pt)
+\begin{textblock*}{65pt}(295pt,100pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -173,6 +173,7 @@ The **Squared Euclidian Distance** is a a simple **measure of between-group simi
 ![**burial type**: SED for each region relationship. Approximated with LOESS.](figures/regions_regions_squared_euclidian_distance_burial_type.jpeg){ height=85% }
 
 \begin{textblock*}{65pt}(5pt,40pt)
+  \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
@@ -412,13 +413,12 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ![Correlation of cultural and spatial distance over time for **real world observations**.](figures/sed_simulation_step_1.jpeg){ height=88% }  
 
-\begin{textblock*}{55pt}(10pt,30pt)
-  \textblockcolour{niceorange}
+\begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
+      Can correlation of spatial and cultural distance \textbf{be ruled out?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -426,22 +426,12 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ![**+** Correlation development for **100 simulation runs** with **equal intergroup distance**.](figures/sed_simulation_step_2.jpeg){ height=88%  }
 
-\begin{textblock*}{55pt}(10pt,30pt)
-  \textblockcolour{niceorange}
+\begin{textblock*}{55pt}(10pt,40pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,90pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Simulation results in comparison with real world data
+      Can correlation of spatial and cultural distance \textbf{be ruled out?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -449,31 +439,22 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ![**+** Diagnostic **boxplots** for simulation runs.](figures/sed_simulation_step_3.jpeg){ height=88%  }
 
-\begin{textblock*}{55pt}(10pt,30pt)
+\begin{textblock*}{55pt}(10pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{55pt}(10pt,110pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,90pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Simulation results in comparison with real world data
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,150pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
+      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age   
     \end{minipage}}%
 \end{textblock*}
 
@@ -481,132 +462,64 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ![**+** Diagnostic **dotplots** indicating mantel test results.](figures/sed_simulation_step_4.jpeg){ height=88%  }
 
-\begin{textblock*}{55pt}(10pt,30pt)
+\begin{textblock*}{55pt}(10pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{55pt}(10pt,110pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,90pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Simulation results in comparison with real world data
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,150pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
+      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age
     \end{minipage}}%
 \end{textblock*}
 
 ## Simulation Application: Correlation of Spatial and Cultural Distance
 
-![Same plot, but simulations now with low **spatial intergroup distance**.](figures/low_spatial_interaction.jpeg){ height=88%  }
+![Same plot, but simulations now with **spatial intergroup distance**.](figures/high_spatial_interaction.jpeg){ height=88%  }
 
-\begin{textblock*}{55pt}(10pt,30pt)
+\begin{textblock*}{55pt}(10pt,40pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Can correlation of spatial and cultural distance \textbf{be ruled out?}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{55pt}(10pt,110pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
+      \textbf{Equal intergroup distance}: Unlikely development in the Early Bronze Age   
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(10pt,90pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Simulation results in comparison with real world data
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,150pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{60pt}(300pt,30pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial intergroup distance in the population graph increases correlation
-    \end{minipage}}%
-\end{textblock*}
-
-## Simulation Application: Correlation of Spatial and Cultural Distance
-
-![Same plot, but simulations now with **high** spatial intergroup distance.](figures/high_spatial_interaction.jpeg){ height=88%  }
-
-\begin{textblock*}{55pt}(10pt,30pt)
+\begin{textblock*}{60pt}(300pt,40pt)
   \textblockcolour{niceorange}
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance \textbf{still plausible?}
+      \textbf{Spatial intergroup distance}: Unlikely development in the Late Bronze Age  
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{55pt}(10pt,90pt)
+\begin{textblock*}{60pt}(300pt,120pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Simulation results in comparison with real world data
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{55pt}(10pt,150pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      The real world correlation is mostly within the spectrum of equal intergroup distance simulations   
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{60pt}(300pt,30pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Spatial intergroup distance in the population graph increases correlation
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{60pt}(300pt,100pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Generally more interaction increases correlation
-    \end{minipage}}%
-\end{textblock*}
-
-\begin{textblock*}{60pt}(300pt,150pt)
-  \textblockcolour{niceorange}
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Compared to simulation results the expansion of cremation behaves highly atypical if we assume spatial correlation 
+      \textbf{burial type} behaves \textbf{highly atypical} if we assume spatial correlation
     \end{minipage}}%
 \end{textblock*}
 
@@ -616,7 +529,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 - The diffusion of the **cremation funeral tradition** and **traditions of flat vs. mound graves** are **independent**.
 
-- Both processes are **mostly independent** of **spatial distance**: Not a simple diffusion process!
+- Both processes are **partially independent** of **spatial distance**: Not a simple diffusion process!
 
 - **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
 
