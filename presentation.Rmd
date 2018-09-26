@@ -350,7 +350,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      R Package to create undirected population networks with configurable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intra- and intergroup transmission}, etc.
+      \textbf{R Package} to create undirected population networks with configurable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intra- and intergroup transmission}, etc.
     \end{minipage}}%
 \end{textblock*}
 
@@ -404,7 +404,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Implementation: C++ CLI program \textbf{gluesless} to simulate idea expansion within the population network
+      \textbf{C++ CLI program} to simulate idea expansion within the population network
     \end{minipage}}%
 \end{textblock*}
 
@@ -418,7 +418,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -432,7 +432,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -455,7 +455,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -487,7 +487,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -519,7 +519,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -560,7 +560,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Is correlation of spatial and cultural distance still plausible?
+      Is correlation of spatial and cultural distance \textbf{still plausible?}
     \end{minipage}}%
 \end{textblock*}
 
@@ -614,9 +614,13 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ## Observations and Hypotheses
 
-- The diffusion of the cremation funeral tradition and traditions of flat vs. mound graves are mostly **independent**, except for a short period in the late Early Bronze Age.
+- The diffusion of the **cremation funeral tradition** and **traditions of flat vs. mound graves** are **independent**.
 
-- Both contexts are to a certain degree correlated to **spatial distance** in the Early Bronze Age, but become **increasingly unpredictable** in the Middle Bronze Age.
+- Both processes are **mostly independent** of **spatial distance**: Not a simple diffusion process!
+
+- **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
+
+\usebeamertemplate*{title separator}
 
 - Both contexts can be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
 
