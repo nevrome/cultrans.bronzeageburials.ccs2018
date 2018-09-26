@@ -338,9 +338,9 @@ Funeral rituals are a special category of ideas: They have a relatively low inte
 
 The main mechanisms of diffusion of neutral variants are **innovation**, **drift** and **flow**. [Neiman 1995]
 
-- **Drift:** Dominance of individual traits due to stochastic processes
+- **Drift:** Individual traits will dominate due to stochastic processes
 
-- **Flow:** Information transfer and synchronization across group boundaries
+- **Flow:** Information transfer causes synchronization across group boundaries
 
 ## Population Graph Creation
 
@@ -529,13 +529,11 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 - The diffusion of the **cremation funeral tradition** and **traditions of flat vs. mound graves** are **independent**.
 
-- Both processes are **partially independent** of **spatial distance**: Not a simple diffusion process!
+- Both processes are **mostly independent** of **spatial distance**: Not a simple diffusion process!
 
 - **Other interaction networks** could yield better predictions: Elite Networks, Religious superstructures, ...
 
 \usebeamertemplate*{title separator}
-
-- Both contexts can be explained by **neutral variant drift and flow** on a large scale. Local innovation might not have been necessary.
 
 - **Sociocultural complexity** in the Bronze Age is generally **increasing**. Still the **homogeneity & heterogeneity** of certain cultural traits **vary greatly**.
 
