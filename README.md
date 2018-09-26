@@ -1,6 +1,6 @@
 # A computational Cultural Transmission model of Bronze age burial rites in Central, Northern and North-western Europe
 
-This paper was prepared to present some results of my now submitted master thesis at the [CCS2018](http://ccs2018.web.auth.gr/) conference in Thessaloniki, Greece. The presentation will be given as part of the satellite session [*Evolution of Cultural Complexity III*](https://ccs18.bsc.es/) by [Sergi Valverde](https://svalver.github.io/) and [Simon Carrignon](https://www.bsc.es/carrignon-simon).
+This paper was prepared to present some results of my now submitted master thesis at the [CCS2018](http://ccs2018.web.auth.gr/) conference in Thessaloniki, Greece. The relevant session [*Evolution of Cultural Complexity III*](https://ccs18.bsc.es/) by [Sergi Valverde](https://svalver.github.io/) and [Simon Carrignon](https://www.bsc.es/carrignon-simon) takes place on 27/09/2018.
 
 I've written my thesis at Kiel University. It was supervised by [PD Dr. Oliver Nakoinz](https://www.ufg.uni-kiel.de/en/staff-directory/professors/oliver-nakoinz) and [Dr. Martin Hinz](http://www.martinhinz.info/). The correction process is still ongoing when this paper is presented.
 
