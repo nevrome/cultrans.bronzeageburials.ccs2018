@@ -65,7 +65,6 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
     \end{minipage}}%
 \end{textblock*}
 
-
 \begin{textblock*}{65pt}(295pt,100pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
@@ -147,7 +146,7 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Data structure transformation: Time series of absolute appearances to \textbf{time series} of burial rite \textbf{proportions} - \textbf{burial rite proxy}
+      Data structure transformation: Time series of absolute appearances to \textbf{time series} of burial rite \textbf{proportions} -- \textbf{burial rite proxy}
     \end{minipage}}%
 \end{textblock*}
 
@@ -344,23 +343,23 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
 
 ## Population Graph Creation
 
-![Example Population Graph. Arranged with the Fruchterman & Reingold algorithm.](figures/population_graph_connection_001.jpeg){ height=85% }
+![Example Population Graph. Arranged with the Fruchterman & Reingold algorithm.](figures/population_graph_connection_001_time_arrow.png){ height=85% }
 
 \begin{textblock*}{130pt}(20pt,50pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Implementation: R Package \textbf{popgenerator} to create population networks with variable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intergroup transmission}, etc.
+      R Package to create undirected population networks with configurable \textbf{population size development}, \textbf{number of groups}, \textbf{degree of intra- and intergroup transmission}, etc.
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{100pt}(250pt,160pt)
+\begin{textblock*}{100pt}(250pt,150pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Every individual's position in social space and time is defined by their connections
+      Every individual's position in social space and time is defined by their \textbf{vertical and horizontal} connections
     \end{minipage}}%
 \end{textblock*}
 
@@ -369,7 +368,7 @@ The main mechanisms of diffusion of neutral variants are **innovation**, **drift
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \footnotesize\raggedright\color{white}
-      Groups have a high degree of internal and a low degree of external interaction
+      Groups have a \textbf{high degree of internal} and a \textbf{low degree of external} interaction
     \end{minipage}}%
 \end{textblock*}
 
