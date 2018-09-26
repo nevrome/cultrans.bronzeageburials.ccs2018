@@ -52,35 +52,35 @@ knitr::opts_chunk$set(echo = TRUE, cache = TRUE)
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      \textbf{Radon-B:} Database for European \textsuperscript{14}C dates for the Bronze and Early Iron Age
+      \textbf{Radon-B:} Database of \textsuperscript{14}C dates for the european Bronze Age
     \end{minipage}}%
 \end{textblock*}
 
-\begin{textblock*}{65pt}(5pt,110pt)
+\begin{textblock*}{65pt}(5pt,100pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Radiocarbon dating is one of the most important absolute dating methods: One date equals a \textbf{fuzzy point in space and time with context information}
+      \textsuperscript{14}C dating is an important absolute dating method: One date equals a \textbf{fuzzy point in space and time with context information}
     \end{minipage}}%
 \end{textblock*}
 
-
-\begin{textblock*}{65pt}(295pt,40pt)
-  \setlength\fboxrule{2pt}%
-  \noindent\fbox{%
-    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
-      \raggedright\footnotesize\color{white}
-      Metainformation for dates from graves: \textbf{burial type} \& \textbf{burial construction}
-    \end{minipage}}%
-\end{textblock*}
 
 \begin{textblock*}{65pt}(295pt,100pt)
   \setlength\fboxrule{2pt}%
   \noindent\fbox{%
     \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
       \raggedright\footnotesize\color{white}
-      Heterogeneous information density in space and time
+      Context for dates from graves: \textbf{burial type} \& \textbf{burial construction}
+    \end{minipage}}%
+\end{textblock*}
+
+\begin{textblock*}{65pt}(295pt,160pt)
+  \setlength\fboxrule{2pt}%
+  \noindent\fbox{%
+    \begin{minipage}{\linewidth - 2\fboxsep - 2\fboxrule}%
+      \raggedright\footnotesize\color{white}
+      Heterogeneous \textbf{information density} in space and time
     \end{minipage}}%
 \end{textblock*}
 
